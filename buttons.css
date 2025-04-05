@@ -1,0 +1,30 @@
+.join{
+    background-color: white;
+    border-radius: 18px;
+    background-color: rgb(56, 50, 50);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 3px;
+    color: white;
+    padding: 5px;
+    height: 30px;
+    width: 50px;
+}
+
+.subs {
+    height: 30px;
+    width: 85px;
+    border-radius: 15px;
+    color: black;
+    background-color: whitesmoke;
+    border: 2px solid black; /* Fixed border */
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Hover effect */
+.subs:hover {
+    background-color: lightgray;
+    transform: scale(1.1);
+}
